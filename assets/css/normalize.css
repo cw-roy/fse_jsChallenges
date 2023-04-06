@@ -10,6 +10,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  text-size-adjust: 100%;
 }
 
 /**
@@ -292,6 +293,7 @@ html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button; /* 2 */
+  appearance: button;
   cursor: pointer; /* 3 */
 }
 
@@ -358,6 +360,7 @@ input[type="search"] {
   -webkit-appearance: textfield; /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; /* 2 */
+  appearance: textfield;
   box-sizing: content-box;
 }
 
