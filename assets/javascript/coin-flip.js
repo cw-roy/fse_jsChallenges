@@ -11,5 +11,8 @@ function flipCoin() {
   function showResult() {
     let result = flipCoin();
     document.getElementById("result").innerHTML = result;
+    setTimeout(function() {
+      document.getElementById("result").innerHTML = "";
+    }, 1000); // 1000 milliseconds = 1 second
   }
   
